@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stupid Coaching</h1>
+      <div class="user_question">
+        <p><%= @question %></p>
+        <p><i>- User</i></p>
+      </div>
+      <div class="coach_answer">
+        <p><b><%= @answer %></b></p>
+        <p><i>- Coach</i></p>
+      </div>
+      <p><%= link_to "Ask another question", root_path %></p>
+    </div>
+  </body>
+</html>
